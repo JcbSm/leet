@@ -1,4 +1,5 @@
-int lengthOfLongestSubstring(char * s){
+int lengthOfLongestSubstring(char *s) {
+
     int max = 0;
     int used[128] = {0};
 
